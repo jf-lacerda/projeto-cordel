@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    
+}
+
+.home {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.home > h1 {
+    font-size: 70px;
+    padding: 30px 30px 0px 30px; 
+    font-family: 'Righteous', cursive;
+}
+
+.home > p {
+    padding: 30px;
+}
+
+.home > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.home > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-position: center center;
+}
+
+div.cor1 {
+    max-width: 800px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    color: black;
+    background-size: cover;
+    font-size: 3vw;
+    line-height: 80px;
+
+    }
+div.cor1 > p {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 30px;
+    }
+
+.cor2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 4vw;
+    line-height: 80px;
+}
+
+.cor2 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 30px;
+}
+
+.cor3 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    color: black;
+    font-size: 4vw;
+    line-height: 80px;
+}
+
+.cor3 > p {
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 30px;
+}
+
+.cor4 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 4vw;
+    line-height: 80px;
+    padding-left: 30px;
+}
+
+.cor4 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.288);
+    background-size: cover;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    padding: 30px 30px;
+}
+
+.cor5 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    color: black;
+    font-size: 5vw;
+    line-height: 80px;
+}
+
+.cor5 > p {
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    line-height: 100px;
+    font-size: 4vw;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 2px;
+    
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
